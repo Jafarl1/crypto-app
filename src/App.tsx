@@ -1,10 +1,11 @@
 import { FC } from "react";
+import MainLayout from "./layout/MainLayout/MainLayout";
 import "./index.css";
 
 const App: FC = () => {
   return (
     <div>
-      <h1>App</h1>
+      <MainLayout />
     </div>
   );
 };
